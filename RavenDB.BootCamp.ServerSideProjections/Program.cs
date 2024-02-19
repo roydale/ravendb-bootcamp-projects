@@ -39,9 +39,9 @@ static void RqlCompanies()
 	using var session = DocumentStoreHolder.Store.OpenSession();
 	var results = session
 		.Advanced.RawQuery<dynamic>(
-			"from Companies " +
-			"select Name, Address.City as City, Address.Country as Country " +
-			"limit 10"
+			@"from Companies
+			select Name, Address.City as City, Address.Country as Country
+			limit 10"
 		).ToList();
 
 	foreach (var r in results)
@@ -76,8 +76,8 @@ static void RqlEmployees()
 	using var session = DocumentStoreHolder.Store.OpenSession();
 	var results = session
 		.Advanced.RawQuery<dynamic>(
-			"from Employees as e " +
-			"select { FullName : e.FirstName + \" \" + e.LastName }"
+			@"from Employees as e
+			select { FullName : e.FirstName + "" "" + e.LastName }"
 		).ToList();
 
 	foreach (var r in results)
@@ -115,13 +115,13 @@ static void RqlEmployeesFunction()
 	using var session = DocumentStoreHolder.Store.OpenSession();
 	var results = session
 		.Advanced.RawQuery<dynamic>(
-			"declare function getFullName(e) {" +
-				"var format = function(p) {" +
-					"return p.FirstName + \" \" + p.LastName;" +
-				"};" +
-				"return { FullName: format(e) };" +
-			"}" +
-			"from Employees as e select getFullName(e)"
+			@"declare function getFullName(e) {
+				var format = function(p) {
+					return p.FirstName + "" "" + p.LastName;
+				};
+				return { FullName: format(e) };
+			}
+			from Employees as e select getFullName(e)"
 		).ToList();
 
 	foreach (var r in results)

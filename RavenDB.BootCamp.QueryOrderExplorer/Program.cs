@@ -73,9 +73,9 @@ namespace RavenDB.BootCamp.QueryOrderExplorer
 
 			using var session = DocumentStoreHolder.Store.OpenSession();
 			var orders = session.Advanced.RawQuery<Order>(
-					"from Orders " +
-					"where Company == $companyId " +
-					"include Company"
+					@"from Orders
+					where Company == $companyId
+					include Company"
 				).AddParameter("companyId", companyReference)
 				.ToList();
 

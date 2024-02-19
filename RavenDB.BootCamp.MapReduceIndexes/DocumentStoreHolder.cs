@@ -10,7 +10,15 @@ namespace RavenDB.BootCamp.MapReduceIndexes
 	{
 		private static readonly Lazy<IDocumentStore> LazyStore = new(() =>
 			{
-				var store = new DocumentStore { Urls = ["http://localhost:8090"], Database = "Northwind" };
+				var store = new DocumentStore
+				{
+					Urls = [
+						"http://127.0.0.1:8090",
+						"http://127.0.0.2:8090",
+						"http://127.0.0.3:8090"
+					],
+					Database = "Northwind"
+				};
 
 				store.Initialize();
 

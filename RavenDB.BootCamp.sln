@@ -19,17 +19,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.CreateInde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.MultimapIndexes", "RavenDB.BootCamp.MultimapIndexes\RavenDB.BootCamp.MultimapIndexes.csproj", "{E9132FC6-1927-42E4-8A40-924CB9AA8682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.MapReduceIndexes", "RavenDB.BootCamp.MapReduceIndexes\RavenDB.BootCamp.MapReduceIndexes.csproj", "{FA988F4F-912F-45D9-9A32-30A6CF14B8F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.MapReduceIndexes", "RavenDB.BootCamp.MapReduceIndexes\RavenDB.BootCamp.MapReduceIndexes.csproj", "{FA988F4F-912F-45D9-9A32-30A6CF14B8F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit_02", "Unit_02", "{0711E51D-3ED5-42F2-9DEC-5929ACB2A0B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit_01", "Unit_01", "{3707FDDE-0396-4432-AB72-CB1A152ED333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.IndexingSample", "RavenDB.BootCamp.IndexingSample\RavenDB.BootCamp.IndexingSample.csproj", "{F0C35312-E722-421D-888E-D9B5DD4CF9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.IndexingSample", "RavenDB.BootCamp.IndexingSample\RavenDB.BootCamp.IndexingSample.csproj", "{F0C35312-E722-421D-888E-D9B5DD4CF9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.LoadDocumentSample", "RavenDB.BootCamp.LoadDocumentSample\RavenDB.BootCamp.LoadDocumentSample.csproj", "{EDCEB21C-688D-4958-97AF-CF12C5774649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.LoadDocumentSample", "RavenDB.BootCamp.LoadDocumentSample\RavenDB.BootCamp.LoadDocumentSample.csproj", "{EDCEB21C-688D-4958-97AF-CF12C5774649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.ServerSideProjections", "RavenDB.BootCamp.ServerSideProjections\RavenDB.BootCamp.ServerSideProjections.csproj", "{90F79B5B-B744-42AA-8E9A-A9F55B0BBFD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.ServerSideProjections", "RavenDB.BootCamp.ServerSideProjections\RavenDB.BootCamp.ServerSideProjections.csproj", "{90F79B5B-B744-42AA-8E9A-A9F55B0BBFD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RavenDB.BootCamp.QueryStatistics", "RavenDB.BootCamp.QueryStatistics\RavenDB.BootCamp.QueryStatistics.csproj", "{175415BD-EB0B-48B7-BBB4-0B0FE4D06525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit_04", "Unit_04", "{D895BE71-FAEF-4DD1-8C05-4C37D7BAD53A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit_03", "Unit_03", "{6F64C275-6FBD-4860-9DD4-0AB2FFF54033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.RetrievingRevisons", "RavenDB.BootCamp.RetrievingRevisons\RavenDB.BootCamp.RetrievingRevisons.csproj", "{66187ECA-1383-471B-87F5-7AFFFF0515B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.Metadata", "RavenDB.BootCamp.Metadata\RavenDB.BootCamp.Metadata.csproj", "{58865B17-726A-4D3D-B724-C51FE253B415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.OperationsAndCommands", "RavenDB.BootCamp.OperationsAndCommands\RavenDB.BootCamp.OperationsAndCommands.csproj", "{2389D838-FE5C-4A9B-BF21-E3696CB7DF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.BatchOperations", "RavenDB.BootCamp.BatchOperations\RavenDB.BootCamp.BatchOperations.csproj", "{A8BBADDD-DA8D-4DAA-9E1B-074D7677EE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.ChangeApiEvent", "RavenDB.BootCamp.ChangeApiEvent\RavenDB.BootCamp.ChangeApiEvent.csproj", "{497C2BE8-C5EE-4E99-8639-501E9DBF4C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.DataSubscription", "RavenDB.BootCamp.DataSubscription\RavenDB.BootCamp.DataSubscription.csproj", "{790422D0-4D3B-4D5C-B89B-94E26E481AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.BootCamp.WriteAssurance", "RavenDB.BootCamp.WriteAssurance\RavenDB.BootCamp.WriteAssurance.csproj", "{D0BA75DE-DED4-45CB-8125-C5441D23CFB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +105,38 @@ Global
 		{90F79B5B-B744-42AA-8E9A-A9F55B0BBFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F79B5B-B744-42AA-8E9A-A9F55B0BBFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F79B5B-B744-42AA-8E9A-A9F55B0BBFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175415BD-EB0B-48B7-BBB4-0B0FE4D06525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175415BD-EB0B-48B7-BBB4-0B0FE4D06525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175415BD-EB0B-48B7-BBB4-0B0FE4D06525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175415BD-EB0B-48B7-BBB4-0B0FE4D06525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66187ECA-1383-471B-87F5-7AFFFF0515B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66187ECA-1383-471B-87F5-7AFFFF0515B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66187ECA-1383-471B-87F5-7AFFFF0515B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66187ECA-1383-471B-87F5-7AFFFF0515B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58865B17-726A-4D3D-B724-C51FE253B415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58865B17-726A-4D3D-B724-C51FE253B415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58865B17-726A-4D3D-B724-C51FE253B415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58865B17-726A-4D3D-B724-C51FE253B415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2389D838-FE5C-4A9B-BF21-E3696CB7DF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2389D838-FE5C-4A9B-BF21-E3696CB7DF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2389D838-FE5C-4A9B-BF21-E3696CB7DF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2389D838-FE5C-4A9B-BF21-E3696CB7DF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BBADDD-DA8D-4DAA-9E1B-074D7677EE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BBADDD-DA8D-4DAA-9E1B-074D7677EE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BBADDD-DA8D-4DAA-9E1B-074D7677EE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BBADDD-DA8D-4DAA-9E1B-074D7677EE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497C2BE8-C5EE-4E99-8639-501E9DBF4C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497C2BE8-C5EE-4E99-8639-501E9DBF4C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497C2BE8-C5EE-4E99-8639-501E9DBF4C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497C2BE8-C5EE-4E99-8639-501E9DBF4C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790422D0-4D3B-4D5C-B89B-94E26E481AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790422D0-4D3B-4D5C-B89B-94E26E481AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790422D0-4D3B-4D5C-B89B-94E26E481AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790422D0-4D3B-4D5C-B89B-94E26E481AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BA75DE-DED4-45CB-8125-C5441D23CFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BA75DE-DED4-45CB-8125-C5441D23CFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BA75DE-DED4-45CB-8125-C5441D23CFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BA75DE-DED4-45CB-8125-C5441D23CFB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +153,14 @@ Global
 		{F0C35312-E722-421D-888E-D9B5DD4CF9BC} = {0711E51D-3ED5-42F2-9DEC-5929ACB2A0B2}
 		{EDCEB21C-688D-4958-97AF-CF12C5774649} = {0711E51D-3ED5-42F2-9DEC-5929ACB2A0B2}
 		{90F79B5B-B744-42AA-8E9A-A9F55B0BBFD1} = {0711E51D-3ED5-42F2-9DEC-5929ACB2A0B2}
+		{175415BD-EB0B-48B7-BBB4-0B0FE4D06525} = {0711E51D-3ED5-42F2-9DEC-5929ACB2A0B2}
+		{66187ECA-1383-471B-87F5-7AFFFF0515B6} = {6F64C275-6FBD-4860-9DD4-0AB2FFF54033}
+		{58865B17-726A-4D3D-B724-C51FE253B415} = {6F64C275-6FBD-4860-9DD4-0AB2FFF54033}
+		{2389D838-FE5C-4A9B-BF21-E3696CB7DF51} = {6F64C275-6FBD-4860-9DD4-0AB2FFF54033}
+		{A8BBADDD-DA8D-4DAA-9E1B-074D7677EE56} = {6F64C275-6FBD-4860-9DD4-0AB2FFF54033}
+		{497C2BE8-C5EE-4E99-8639-501E9DBF4C28} = {6F64C275-6FBD-4860-9DD4-0AB2FFF54033}
+		{790422D0-4D3B-4D5C-B89B-94E26E481AA6} = {6F64C275-6FBD-4860-9DD4-0AB2FFF54033}
+		{D0BA75DE-DED4-45CB-8125-C5441D23CFB6} = {D895BE71-FAEF-4DD1-8C05-4C37D7BAD53A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8C79D45-D45F-40F3-8E5E-FD192B432EE4}

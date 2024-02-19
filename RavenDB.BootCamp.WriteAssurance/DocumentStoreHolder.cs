@@ -1,6 +1,6 @@
 ﻿using Raven.Client.Documents;
 
-namespace RavenDB.BootCamp.Core
+namespace RavenDB.BootCamp.WriteAssurance
 {
 	public static class DocumentStoreHolder
 	{
